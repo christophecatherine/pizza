@@ -1,0 +1,288 @@
+/* DOCUMENT INFORMATION 
+
+        - Document: pizza thème 
+        - version: 1.0.0 
+        -Author: Christophe 
+*/
+
+
+/* COLORS
+        - defaut body text   #eee
+        -h1                  #eee;
+        -h2                  black;
+        -h3
+
+        -button
+        -button:hover
+        -icon                rgb(14, 99, 14) 
+
+        -border
+*/
+
+
+/* FONTS
+        -Default      Lato
+        -Subtitle
+
+*/
+
+
+/* CSS DIRECTORY
+        1.=GLOBAL
+        2.=HEADER
+        3.=PRODUITS
+*/
+
+
+/*GLOBAL 
+============================= */
+
+html {
+    background-color: #fff
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+
+h1 {
+    color: #eee;
+}
+
+h2 {
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: green;
+    width: 100px;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 160%;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+
+/* HEADER
+============================= */
+
+header {
+    background-image: linear-gradient( rgba(255, 255, 153, 0.4), rgba(255, 255, 255, 0.4)), url(../image/pizza.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-title {
+    position: absolute;
+    top: 30%;
+}
+
+.home-title h1 {
+    font-size: 340%;
+    color: rgb(12, 2, 1);
+}
+
+.home-title h1 span {
+    font-weight: 700;
+}
+
+.home-title p {
+    color: #b90808;
+}
+
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30 px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 2s, color 2s, border 2s;
+}
+
+.btn-full {
+    background-color: gray;
+    color: rgb(235, 12, 30);
+    margin: 15px;
+}
+
+.btn-ghost {
+    border: 2px solid rgb(218, 9, 9);
+    color: black;
+}
+
+.btn-full:hover {
+    background-color: rgb(7, 184, 60);
+    color: black;
+}
+
+.btn-ghost:hover {
+    background-color: rgb(7, 184, 60);
+    border: rgb(7, 184, 60);
+    color: black;
+}
+
+
+/* PRODUITS
+============================= */
+
+.produits-plus {
+    margin: 40px 0;
+}
+
+.produits-plus:hover .produits-icon {
+    color: red;
+    transform: translateX(20px);
+}
+
+.produits-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produits-icon {
+    font-size: 34px;
+    color: rgb(14, 99, 14);
+    transition: all 2s;
+}
+
+
+/* FAMILLE PIZZAS
+============================= */
+
+.famille-pizza {
+    background-color: rgb(153, 240, 126);
+}
+
+.famille-details {
+    padding: 30px 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.famille-details img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.famille-details h4 {
+    text-align: center;
+}
+
+
+/* BACKGROUND COLOR
+============================= */
+
+.bg-green {
+    background-color: rgb(14, 158, 9);
+}
+
+.bg-white {
+    background-color: rgb(228, 238, 228);
+}
+
+.bg-red {
+    background-color: rgb(233, 6, 6);
+}
+
+
+/* GALERIES PHOTOS
+============================= */
+
+.galeries-img {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 30px;
+}
+
+.galeries-titre {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.galeries-titre h4 {
+    color: rgb(255, 255, 255);
+}
+
+
+/* CLIENTS
+============================= */
+
+.clients {
+    background: no-repeat center / 100%, url("../image/naples.1486714.c1000x300.jpg");
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.clients h2 {
+    color: #f0e9e9;
+}
+
+.clients h2:after {
+    background-color: red;
+}
+
+blockquote {
+    padding: 5px;
+    font-style: italic;
+    line-height: 130%;
+    color: #fff;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 800%;
+    font-family: "Sanchez", serif;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    color: rgb(231, 19, 19, 0.5)
+}
+
+cite {
+    font-size: 90%;
+    display: block;
+    margin-top: 20px;
+}
+
+cite img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
