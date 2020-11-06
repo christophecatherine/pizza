@@ -395,54 +395,58 @@
                     </div>
 
                     <form>
+                        <!--Nom et email-->
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Nom :</label>
-                                <input type="text" id="name " />
+                                <div class="contact-form">
+                                    <label>Nom :</label>
+                                    <input type="text" id="name " />
+                                </div>
                             </div>
+
                             <div class="col-md-6">
-                                <label>Email :</label>
-                                <input type="email" id="email" placeholder="Ajouter votre email" />
+                                <div class="contact-form">
+                                    <label>Email :</label>
+                                    <input type="email" id="email" placeholder="Ajouter votre email" />
+                                </div>
                             </div>
                         </div>
+
+                        <!--Service contact-->
                         <div class="row">
                             <div class="col-md-12">
-                                <label>Sélectionnez le service</label>
-                                <select>
+                                <div class="contact-form">
+                                    <label>Sélectionnez le service</label>
+                                    <select>
                                         <option>Service client</option>
                                         <option>Service a domicile</option>
-                                        <option>SAV</option>
-                                </select>
+                                        <option>SAV</option>                          
+                                    </select>
+                                </div>
                             </div>
                         </div>
 
+                        <!--Message-->
                         <div class="row">
                             <div class="col-md-12">
-                                <!--Message-->
-                                <label>Votre message</label>
-                                <textarea id="message" rows="3"></textarea>
-
-                                <button class="btn">Envoyer                         
-                         
-                                </button>
-
+                                <div class="contact-form">
+                                    <label>Votre message</label>
+                                    <textarea id="message" rows="3" class="contact-message"></textarea>
+                                </div>
                             </div>
-
-
-
-
-
-
-
                         </div>
 
 
-
-
+                        <!--Bouton envoye-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div>
+                                    <button class="btn btn-contact">Envoyer </button>
+                                </div>
+                            </div>
+                        </div>
 
                     </form>
-
-
 
                 </div>
 
@@ -451,25 +455,18 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96580.77475179403!2d14.175190470849978!3d40.84664772437494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b084248f325bb%3A0xbd02ed67d632a4e4!2sGino%20e%20Toto%20Sorbillo!5e0!3m2!1sfr!2sfr!4v1604654040357!5m2!1sfr!2sfr"
                             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
-
                 </div>
-
             </div>
+        </div>
 
-
-
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>Site de pizza - 2020. <a href="/">Mentions légales</a></p>
         </div>
 
 
-
-
-
-
-
-
-
-    </section>
-
+    </footer>
 </body>
 
 

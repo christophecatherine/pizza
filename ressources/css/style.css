@@ -367,3 +367,39 @@ cite img {
     color: white;
     margin-bottom: 20px;
 }
+
+
+/* CONTACT
+============================= */
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-message {
+    width: 100%;
+}
+
+.btn-contact {
+    background-color: rgb(14, 99, 14);
+    color: white;
+}
+
+
+/* FOOTER
+============================= */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright a {
+    color: white;
+}
