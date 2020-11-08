@@ -245,7 +245,7 @@ header {
 
 .clients {
     background: no-repeat center / 100%, url("../image/naples.1486714.c1000x300.jpg");
-    height: 550px;
+    height: auto;
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
