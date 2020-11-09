@@ -1,5 +1,5 @@
 # 04-html-css-bootstrap
-lespizzas
+les pizzas
 
 
 https://christophecatherine.github.io/04-html-css-bootstrap/
